@@ -1,0 +1,18 @@
+entry_point: opensanctions.crawlers.za_saps
+title: "South African Police Service - Wanted Persons"
+prefix: za-saps
+summary: >
+  List of wanted people published by the South African Police Service
+collections:
+  - sanctions
+  - default
+publisher:
+  name: South African Police Service
+  acronym: SAPS
+  country: za
+  url: https://www.saps.gov.za/
+url: https://www.saps.gov.za/crimestop/wanted/list.php
+data:
+  url: https://www.saps.gov.za/crimestop/wanted/list.php
+  format: HTML
+

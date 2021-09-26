@@ -2,7 +2,7 @@ entry_point: opensanctions.crawlers.eu_fsf
 title: "EU Financial Sanctions Files (FSF)"
 prefix: eu-fsf
 summary: >
-  As part of the Common Foreign Security Policy thr European Union publishes
+  As part of the Common Foreign Security Policy the European Union publishes
   a sanctions list that is implemented by all member states.
 collections:
   - sanctions
