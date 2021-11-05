@@ -1,0 +1,17 @@
+entry_point: opensanctions.crawlers.za_saps
+title: List of Wanted Persons by the South African Police Service
+prefix: za-saps
+summary: List of wanted people
+collections:
+  - crime
+  - default
+publisher:
+  name: South African Police Service
+  description: |
+    The South African Police Service is the national police force of the Republic of South Africa.
+  url: https://www.saps.gov.za/index.php
+  country: za
+url: https://www.saps.gov.za/crimestop/wanted/list.php
+data:
+  url: https://www.saps.gov.za/crimestop/wanted/list.php
+  format: HTML
