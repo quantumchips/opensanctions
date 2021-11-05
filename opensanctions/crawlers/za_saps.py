@@ -1,7 +1,4 @@
-import eu_fsf
-print('done')
-exit()
+import pandas
 
-res = http.get("https://www.saps.gov.za/crimestop/wanted/list.php")
-
-print(res)
+def crawl(context):
+    print('done')
